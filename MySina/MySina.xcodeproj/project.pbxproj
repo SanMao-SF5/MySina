@@ -11,7 +11,6 @@
 		1582CD221C1ABD4300502CA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1582CD211C1ABD4300502CA6 /* ViewController.swift */; };
 		1582CD251C1ABD4300502CA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1582CD231C1ABD4300502CA6 /* Main.storyboard */; };
 		1582CD271C1ABD4300502CA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1582CD261C1ABD4300502CA6 /* Assets.xcassets */; };
-		1582CD2A1C1ABD4300502CA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1582CD281C1ABD4300502CA6 /* LaunchScreen.storyboard */; };
 		1582CD351C1ABD4300502CA6 /* MySinaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1582CD341C1ABD4300502CA6 /* MySinaTests.swift */; };
 		1582CD401C1ABD4300502CA6 /* MySinaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1582CD3F1C1ABD4300502CA6 /* MySinaUITests.swift */; };
 /* End PBXBuildFile section */
@@ -39,7 +38,6 @@
 		1582CD211C1ABD4300502CA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1582CD241C1ABD4300502CA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1582CD261C1ABD4300502CA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1582CD291C1ABD4300502CA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1582CD2B1C1ABD4300502CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1582CD301C1ABD4300502CA6 /* MySinaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySinaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1582CD341C1ABD4300502CA6 /* MySinaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySinaTests.swift; sourceTree = "<group>"; };
@@ -101,7 +99,6 @@
 				1582CD211C1ABD4300502CA6 /* ViewController.swift */,
 				1582CD231C1ABD4300502CA6 /* Main.storyboard */,
 				1582CD261C1ABD4300502CA6 /* Assets.xcassets */,
-				1582CD281C1ABD4300502CA6 /* LaunchScreen.storyboard */,
 				1582CD2B1C1ABD4300502CA6 /* Info.plist */,
 			);
 			path = MySina;
@@ -232,7 +229,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1582CD2A1C1ABD4300502CA6 /* LaunchScreen.storyboard in Resources */,
 				1582CD271C1ABD4300502CA6 /* Assets.xcassets in Resources */,
 				1582CD251C1ABD4300502CA6 /* Main.storyboard in Resources */,
 			);
@@ -302,14 +298,6 @@
 				1582CD241C1ABD4300502CA6 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1582CD281C1ABD4300502CA6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1582CD291C1ABD4300502CA6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -400,6 +388,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = MySina/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -412,6 +401,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = MySina/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -487,6 +477,7 @@
 				1582CD461C1ABD4300502CA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1582CD471C1ABD4300502CA6 /* Build configuration list for PBXNativeTarget "MySinaTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +486,7 @@
 				1582CD491C1ABD4300502CA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1582CD4A1C1ABD4300502CA6 /* Build configuration list for PBXNativeTarget "MySinaUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +495,7 @@
 				1582CD4C1C1ABD4300502CA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
